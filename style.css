@@ -444,7 +444,7 @@ main {
         display: none !important;
     }
     .home-mobile {
-        display: block;
+        display: block !important;
     }
     .container .skillsContainer{
         height: min-content;
