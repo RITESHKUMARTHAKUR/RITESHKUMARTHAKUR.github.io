@@ -433,6 +433,7 @@ main {
     }
     .container .homeContainer .home-left .sub-heading { 
         font-size: 25px;
+        margin: 0 0 1rem;
         font-weight: bold;
     }
     .home-right  {
@@ -444,7 +445,7 @@ main {
         display: none !important;
     }
     .home-mobile {
-        padding: 100px 0 0;
+        padding: 150px 0 0;
         display: block !important;
     }
     .container .skillsContainer{
