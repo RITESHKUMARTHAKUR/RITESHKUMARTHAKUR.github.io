@@ -437,6 +437,7 @@ main {
         font-weight: bold;
     }
     .home-right  {
+        margin: 3rem 0 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -445,7 +446,7 @@ main {
         display: none !important;
     }
     .home-mobile {
-        padding: 150px 0 0;
+        padding: 120px 0 0;
         display: block !important;
     }
     .container .skillsContainer{
