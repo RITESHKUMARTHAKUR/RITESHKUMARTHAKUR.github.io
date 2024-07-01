@@ -49,6 +49,9 @@ body {
     font-size: var(--tj-fz-body);
     font-weight: var(--tj-fw-regular);
 }
+html {
+    scroll-behavior: smooth;
+}
 main {
     background-color: #F3EFFC;
 }
