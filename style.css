@@ -106,7 +106,7 @@ main {
 .container .header-container .header-menu nav ul li a{
     list-style: none;
     text-decoration: none;
-    color: #804BEA !important;
+    color: #804BEA ;
 }
 
 .container .header-container .header-button a{
@@ -114,6 +114,11 @@ main {
     font-weight: bold;
     letter-spacing: 2px;
     color: #804BEA;
+}
+.container .header-container .header-button a:hover {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-theme-secondary) 100%);
 }
 
 .section-home {
@@ -160,7 +165,12 @@ main {
     padding: 8px;
     border-radius: 50%;
     border: 2px solid #804BEA;
+    transition: all 0.2s ease-in-out;
 }
+.header-bottom .header-icons .header-icons-card:hover { 
+    background-color: #DDD7FD;
+    /* background-image: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-theme-secondary) 100%) */
+ }
 .header-bottom .header-icons .header-icons-card img{
     width: 100%;
 }
@@ -180,6 +190,7 @@ main {
     border: 2px solid #804BEA;
     border-radius: 30px;
     color: #804BEA;
+    cursor: pointer;
     margin: 4rem 0 0;
     padding: 20px 20px;
     transition: all 0.2s ease-in-out;
@@ -187,7 +198,8 @@ main {
 }
 .container .homeContainer .home-left .home-btn-box:hover{ 
     border: 2px solid #804BEA;
-    background-color: #804BEA;
+    /* background-color: #804BEA; */
+    background-image: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-theme-secondary) 100%)
 }
 .container .homeContainer .home-left .home-btn-box:hover a{ 
     /* border: 2px solid #804BEA;
