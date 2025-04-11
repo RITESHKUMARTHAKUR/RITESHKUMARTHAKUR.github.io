@@ -229,6 +229,13 @@
                         <div class="skills-icons">
                             <div class="skills-card">
                                 <div class="skill-img-container">
+                                    <img class="skill-img" src="./assets//images/skills img/reactjs.webp" alt="">
+                                </div>
+                                <p class="color-black">React js</p>
+                            </div>
+
+                            <div class="skills-card">
+                                <div class="skill-img-container">
                                     <img class="skill-img" src="./assets//images/skills img/node.webp" alt="">
                                 </div>
                                 <p class="color-black">Nodejs</p>
@@ -243,12 +250,6 @@
 
                             <div class="skills-card">
                                 <div class="skill-img-container">
-                                    <img class="skill-img" src="./assets//images/skills img/reactjs.webp" alt="">
-                                </div>
-                                <p class="color-black">React js</p>
-                            </div>
-                            <div class="skills-card">
-                                <div class="skill-img-container">
                                     <img class="skill-img" src="./assets//images/skills img/firebase.webp" alt="">
                                 </div>
                                 <p class="color-black">Firebase js</p>
@@ -258,6 +259,12 @@
                                     <img class="skill-img" src="./assets//images/skills img/cpp.webp" alt="">
                                 </div>
                                 <p class="color-black">C++</p>
+                            </div>
+                            <div class="skills-card">
+                                <div class="skill-img-container">
+                                    <img class="skill-img" src="./assets//images/skills img/django.webp" alt="">
+                                </div>
+                                <p class="color-black">Django</p>
                             </div>
                         </div>
                     </div>
@@ -279,6 +286,12 @@
                                 <img class="works-img" src="./assets/images/projects img//homebooks.webp" alt="">
                             </div>
                             <p>Home Books</p>
+                        </a>
+                        <a href="https://tedxbitd.in" class="works-card" target="_blank">
+                            <div class="works-img-div">
+                                <img class="works-img" src="./assets/images/projects img/tedxbitd.webp" alt="">
+                            </div>
+                            <p>TEDxBITD</p>
                         </a>
                         <a href="https://blog-site-c8312.web.app/" class="works-card" target="_blank">
                             <div class="works-img-div">
@@ -385,26 +398,25 @@
                         <p class="">Contact</p>
                         <hr class="skills-heading-hr">
                     </div>
-                    <!-- <p>Here are my works</p> -->
-                     <div class="contact-container">
-                        <div class="input-group">
-                            <input type="text" placeholder="Name">
-                        </div>
-                        <div class="input-group">
-                            <input type="text" placeholder="email">
-                        </div>
-                        <div class="input-group">
-                            <input type="text" placeholder="contact">
-                        </div>
-                        <div class="input-group">
-                            <textarea name="" rows="6" id="" placeholder="message">
-
-                            </textarea>
-                        </div>
-                        <div class="input-group">
-                            <button>Send Message</button>
-                        </div>
-                     </div>
+                    <div class="contact-container">
+                        <form id="contactForm" action="https://formspree.io/f/meoanjpg" method="POST">
+                            <div class="input-group">
+                                <input type="text" name="name" placeholder="Name" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" name="subject" placeholder="Subject">
+                            </div>
+                            <div class="input-group">
+                                <textarea name="message" rows="6" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="input-group">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -436,6 +448,6 @@
         </section>
     </main>
 
-
+    <script src="./index.js"></script>
 </body>
 </html>

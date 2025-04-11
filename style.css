@@ -395,7 +395,10 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin: 90px auto;
+    margin: 20px auto;
+}
+.contact-container .input-group {
+    margin-top: 1rem;
 }
 .contact-container .input-group input{
     width: 100%;
@@ -409,8 +412,10 @@ main {
 }
 .contact-container .input-group textarea{
     width: 100%;
+    padding:  10px;
     color: #804BEA;
     border: 2px solid #804BEA;
+    outline: none;
     /* border: 2px solid gray; */
     border-radius: 8px;
 }
@@ -419,6 +424,7 @@ main {
     background-image: linear-gradient(to right, var(--tj-theme-primary) 0%, var(--tj-theme-secondary) 100%);
     border: 2px solid #804BEA;
     padding: 20px 25px;
+    cursor: pointer;
     color: white;
     border-radius: 50px;
 }
